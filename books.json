@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "status": "read",
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien"
+  },
+  {
+    "id": 2,
+    "status": "unread",
+    "title": "1984",
+    "author": "George Orwell"
+  },
+  {
+    "id": 3,
+    "status": "read",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee"
+  },
+  {
+    "id": 4,
+    "status": "unread",
+    "title": "Dune",
+    "author": "Frank Herbert"
+  },
+  {
+    "id": 5,
+    "status": "read",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald"
+  },
+  {
+    "id": 6,
+    "status": "unread",
+    "title": "The Name of the Wind",
+    "author": "Patrick Rothfuss"
+  },
+  {
+    "id": 7,
+    "status": "read",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen"
+  },
+  {
+    "id": 8,
+    "status": "unread",
+    "title": "The Martian",
+    "author": "Andy Weir"
+  },
+  {
+    "id": 9,
+    "status": "read",
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury"
+  },
+  {
+    "id": 10,
+    "status": "unread",
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger"
+  }
+]

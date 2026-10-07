@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Reading List</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script type='module' src="./script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>My Lib</h1>
+        </header>
+        <ul>
+            <li><button id="newBook">+</button></li>
+            <li>
+                <label for="book-filter">filter:</label>
+                <select name="book-filter" id="book-filter">
+                    <option value="all">all</option>
+                    <option value="read">read</option>
+                    <option value="unread">unread</option>
+                </select>
+            </li>
+            <li>
+                <label for="search">search: </label>
+                <input type="text" id="search" name="search" />
+            </li>
+        </ul>
+        <div class="books-container">
+            <ul id="book-list">
+            </ul>
+        </div>
+        <ul id="book-stats">
+            <li>
+                <p>total: <span id="totalBooks">0</span></p>
+            </li>
+            <li>
+                <p>read: <span id="totalRead">0</span></p>
+            </li>
+            <li>
+                <p>unread: <span id="totalUnread">0</span></p>
+            </li>
+        </ul>
+        <div class="overlay hidden">
+            <form>
+                <fieldset>
+                    <dl>
+                        <dt><label for="status">Read:</label></dt>
+                        <dd>
+                            <input type="checkbox" id="status" name="status">
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><label for="title">Title:</label></dt>
+                        <dd><input type="text" id="title" name="title" placeholder="Title"></dd>
+                    </dl>
+                    <dl>
+                        <dt><label for="author">Author:</label></dt>
+                        <dd><input type="text" id="author" name="author" placeholder="Author"></dd>
+                    </dl>
+                    <div class="form-buttons">
+                        <button type="submit">submit</button>
+                        <button type="button" id="cancel">cancel</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
